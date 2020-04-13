@@ -1,5 +1,5 @@
 # dockerfile nginx-php-mssql
-# docker build wolf/nginx-php-fpm:latest
+# docker build -t wolf/nginx-php-fpm:latest .
 # 简单运行容器
 # sudo docker run -d wolf/nginx-php-fpm
 # 要在启动时从git中动态提取代码：
